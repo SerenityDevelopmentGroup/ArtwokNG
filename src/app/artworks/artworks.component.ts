@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./artworks.component.css']
 })
 export class ArtworksComponent implements OnInit {
+  
+pageTitle : string;
+createdOn : number;
+showImage : boolean;
 
   constructor() { }
 
